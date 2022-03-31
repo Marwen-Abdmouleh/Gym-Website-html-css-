@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+/* ---------------------------------------NAV BARRE------------------------------------------------------- */
+.entete {
+  width: 100%;
+  height: 50%;
+  background: black;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sport1 {
+  position: relative;
+  left: 70%;
+}
+.sport11 {
+  text-align: center;
+  padding-block: 50px;
+}
+.titre {
+  letter-spacing: 0.08em;
+  color: #000;
+  vertical-align: baseline;
+  font-size: 3rem;
+  line-height: 1.625rem;
+  font-weight: 900;
+  text-align: left;
+  width: 70%;
+  margin-left: 19%;
+  margin-top: -35%;
+}
+.qui {
+  letter-spacing: 0.08em;
+  color: #000;
+  vertical-align: baseline;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 900;
+  text-align: left;
+  width: 70%;
+  margin-left: 1%;
+  margin-top: 5%;
+}
+
+/* ---------------------------------------BARRE ACCEUIL----------------------------------------------------- */
+.barre {
+  position: sticky;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+}
+.ul_barre {
+  text-transform: uppercase;
+  padding-inline-start: 0px;
+  font-size: 18px;
+  padding-inline-start: 0px;
+}
+.ul_barre {
+  width: 80%;
+  margin: 0 auto;
+}
+.li_barre > a {
+  position: absolute;
+}
+a {
+  /* .li_bare > a*/
+  display: block;
+  /* position: absolute; */
+  list-style: none;
+
+  text-decoration: none;
+  color: white;
+  padding: 0px 50px;
+  top: 0px;
+  height: 100%;
+  padding-block: 15px;
+  text-align: center;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+.li_barre {
+  list-style: none;
+  float: left;
+  color: white;
+  display: block;
+  width: 215px;
+  height: 50px;
+  text-align: center;
+  padding-block: 15px;
+}
+.ul_sec {
+  visibility: hidden;
+  padding-inline-start: 0px;
+  box-shadow: 2px 2px rgb(75, 27, 75) inset;
+  color: black;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.li_sec {
+  background-color: #ff9100;
+  list-style: none;
+  height: 50px;
+  text-align: center;
+  padding-block: 15px 0;
+}
+
+.li_barre:hover {
+  background-color: #ff9100;
+  cursor: pointer;
+  box-shadow: 2px 2px rgb(0, 0, 0) inset;
+  color: rgb(255, 255, 255);
+}
+.li_barre:hover .ul_sec {
+  visibility: visible;
+  transform: translateY(5px);
+  transition: all 0.1s ease-in-out;
+}
+
+.li_sec:hover {
+  cursor: pointer;
+  box-shadow: 2px -2px rgb(0, 0, 0) inset;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+#click_cnx {
+  color: black;
+  font-size: x-large;
+}
+
+/* -----------------------------------------button chargemen plus---------------------------------- */
+.buton {
+  position: relative;
+  margin-bottom: 50%;
+  margin-right: 19%;
+}
+.button {
+  /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin: 30px auto;
+
+  border: none;
+  padding: 18px 48px;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background: black;
+  color: #fff;
+}
+.button:hover {
+  font-family: "Lato", sans-serif;
+  background-color: #ff9100;
+  letter-spacing: 0.08em;
+  color: white;
+  cursor: pointer;
+}
+/* ------------------------------------------------FOOTER--------------------------------------------- */
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  margin-top: 200px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+.block_footer {
+  list-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+.ul_footer {
+  font-size: 20px;
+}
+.li_footer {
+  list-style: none;
+  margin: 5px 0 5px 8px;
+  font-size: 14px;
+}
+
+.div_footer {
+  display: inline-block;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-align: right;
+  position: relative;
+  left: 75%;
+}
+.li_footer:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #ff9100;
+}
+
+#fiii {
+  color: #b4eecc;
+}
+/* -------------------------------------formulere cnx--------------------------------------------------- */
+
+form {
+  display: inline-block;
+
+  top: 90px;
+  color: black;
+
+  justify-content: center;
+  font-family: Times New Roman, serif;
+  font-size: x-large;
+  font-style: normal;
+  margin-top: 50px;
+}
+input,
+textarea {
+  font-family: Times New Roman, serif;
+  font-size: large;
+  font-style: normal;
+  color: rgb(82, 82, 82);
+  background-color: #ccb3b3;
+}
+fieldset {
+  background-image: black    
+  ),
+  url(back1.jpg);
+  background-size: 18%;
+  background-position: top;
+  background-color: white;
+}
+
+input[type="radio"] {
+  appearance: none;
+  padding: 3.5px 3.5px;
+  font-size: 4px;
+  line-height: 1.5;
+  border-radius: 2px;
+  color: #6b0e14;
+  background-color: gray;
+  border: 1px solid;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+textarea {
+  margin-top: -4px;
+}
+
+/* -----------------------------------------button chargemen plus---------------------------------- */
+.buton {
+  display: flex;
+  justify-content: end;
+}
+/* .button {
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: Grey;
+  color: black;
+  border-radius: 25px;
+  padding: 15px;
+  align-self: flex-end;
+} */
+.button:hover {
+  background-color: #ff9100;
+  color: black;
+  box-shadow: 2px 2px rgb(0, 0, 0) inset;
+  cursor: pointer;
+}

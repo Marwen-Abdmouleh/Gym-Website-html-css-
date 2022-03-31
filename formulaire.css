@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+/* ---------------------------------------NAV BARRE------------------------------------------------------- */
+.entete {
+  width: 100%;
+  height: 50%;
+  background: black;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sport1 {
+  position: relative;
+  left: 70%;
+}
+.sport11 {
+  text-align: center;
+  padding-block: 50px;
+}
+.titre {
+  letter-spacing: 0.08em;
+  color: #000;
+  vertical-align: baseline;
+  font-size: 3rem;
+  line-height: 1.625rem;
+  font-weight: 900;
+  text-align: left;
+  width: 70%;
+  margin-left: 19%;
+  margin-top: -35%;
+}
+.qui {
+  letter-spacing: 0.08em;
+  color: #000;
+  vertical-align: baseline;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 900;
+  text-align: left;
+  width: 70%;
+  margin-left: 1%;
+  margin-top: 5%;
+}
+
+/* ---------------------------------------BARRE ACCEUIL----------------------------------------------------- */
+.barre {
+  position: sticky;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+}
+.ul_barre {
+  text-transform: uppercase;
+  padding-inline-start: 0px;
+  font-size: 18px;
+}
+.ul_barre {
+  width: 80%;
+  margin: 0 auto;
+}
+.li_barre > a {
+  position: absolute;
+}
+a {
+  display: block;
+  /* position: absolute; */
+  list-style: none;
+
+  text-decoration: none;
+  color: white;
+  padding: 0px 50px;
+  top: 0px;
+  height: 100%;
+  padding-block: 15px;
+  text-align: center;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+.li_barre {
+  list-style: none;
+  float: left;
+  color: white;
+  display: block;
+  width: 215px;
+  height: 50px;
+  text-align: center;
+  padding-block: 15px;
+}
+.ul_sec {
+  visibility: hidden;
+  padding-inline-start: 0px;
+  box-shadow: 2px 2px rgb(75, 27, 75) inset;
+  color: black;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.li_sec {
+  background-color: #ff9100;
+  list-style: none;
+  height: 50px;
+  text-align: center;
+  padding-block: 15px 0;
+}
+
+.li_barre:hover {
+  background-color: #ff9100;
+  cursor: pointer;
+  box-shadow: 2px 2px rgb(0, 0, 0) inset;
+  color: rgb(255, 255, 255);
+}
+.li_barre:hover .ul_sec {
+  visibility: visible;
+  transform: translateY(5px);
+  transition: all 0.1s ease-in-out;
+}
+
+.li_sec:hover {
+  cursor: pointer;
+  box-shadow: 2px -2px rgb(0, 0, 0) inset;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+#click_cnx {
+  color: black;
+  font-size: x-large;
+}
+/* -------------------------------------formulere cnx--------------------------------------------------- */
+
+.form {
+  text-align: center;
+  padding: 10px;
+  width: 700px;
+}
+fieldset {
+  padding: 70px;
+  margin-top: -700px;
+}
+textarea {
+  border: 1px solid black;
+  background-color: #fafafa;
+}
+
+.buton {
+  justify-content: right;
+  margin: 20px;
+}
+input,
+textarea {
+  width: 100%;
+}
+input[type="submit"] {
+  margin-right: 10px;
+}
+.button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin-top: 30px;
+  border: none;
+  padding: 18px 48px;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background: black;
+  color: #fff;
+}
+
+.button:hover {
+  font-family: "Lato", sans-serif;
+  background-color: #ff9100;
+  letter-spacing: 0.08em;
+  color: white;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------FOOTER--------------------------------------------- */
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  margin-top: 200px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+.block_footer {
+  list-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+.ul_footer {
+  font-size: 20px;
+}
+.li_footer {
+  list-style: none;
+  margin: 5px 0 5px 8px;
+  font-size: 14px;
+}
+
+.div_footer {
+  display: inline-block;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-align: right;
+  position: relative;
+  left: 75%;
+}
+.li_footer:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #ff9100;
+}
+
+#fi,
+#fii,
+#fiii {
+  color: #b4eecc;
+}
